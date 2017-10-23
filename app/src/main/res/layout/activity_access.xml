@@ -25,17 +25,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView android:src="@drawable/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="72dp"
-            android:layout_marginBottom="24dp"
-            android:layout_gravity="center_horizontal" />
 
         <LinearLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView android:src="@drawable/big_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -73,11 +75,13 @@
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btn_login"
                 android:layout_width="fill_parent"
+                android:textColor="@color/colorWhite"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="24dp"
                 android:padding="12dp"
-                android:text="Login"/>
+                android:text="@string/action_sign_in"
+                android:background="@color/colorAccent"/>
 
         </LinearLayout>
     </ScrollView>
