@@ -1,32 +1,17 @@
+package codesiders.upqdocentes;
 /**
  * Created by UPQ on 30/10/2017.
  */
 
 /**
- * Clase que contiene los códigos usados en "I Wish" para
+ * Clase que contiene los códigos usados en la aplicación para
  * mantener la integridad en las interacciones entre actividades
  * y fragmentos
  */
 public class Constantes {
-    /**
-     * Transición Home -> Detalle
-     */
     public static final int CODIGO_DETALLE = 100;
-
-    /**
-     * Transición Detalle -> Actualización
-     */
     public static final int CODIGO_ACTUALIZACION = 101;
-
-    /**
-     * Puerto que utilizas para la conexión.
-     * Dejalo en blanco si no has configurado esta carácteristica.
-     */
-    private static final String PUERTO_HOST = "63343";
-
-    /**
-     * Dirección IP de genymotion o AVD
-     */
+    private static final String PUERTO_HOST = "";
     private static final String IP = "http://10.0.3.2:";
     /**
      * URLs del Web Service
