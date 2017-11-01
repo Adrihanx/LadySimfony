@@ -5,7 +5,5 @@ package codesiders.upqdocentes;
  */
 
 public class Docente {
-    public Docente() {
 
-    }
 }
